@@ -82,7 +82,7 @@ multiply(4, 3, function(answer){
 });
 // Do not edit the code above.
 
-answer(multiply);
+cb(multiply);
 
 ////////// PROBLEM 4 //////////
 
@@ -120,7 +120,13 @@ result(contains);
   Remove any duplicate values from the array, and invoke the callback with the modified array as an argument.
 */
 
-//Code Here
+var uniq = function(arr,cb)
+{
+  for(let i=0;i<arr.length;i++)
+  {
+    
+  }
+}
 
 // Do not edit the code below.
 uniq(names, function(uniqArr){
