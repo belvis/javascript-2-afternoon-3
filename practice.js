@@ -41,7 +41,7 @@ first(names, function(firstName){
 });
 // Do not edit the code above.
 
-firstName(first);
+
 
 ////////// PROBLEM 2 //////////
 
@@ -62,7 +62,7 @@ last(names, function(lastName){
 });
 // Do not edit the code above.
 
-lastName(last);
+
 
 ////////// PROBLEM 3 //////////
 
@@ -82,7 +82,7 @@ multiply(4, 3, function(answer){
 });
 // Do not edit the code above.
 
-cb(multiply);
+
 
 ////////// PROBLEM 4 //////////
 
@@ -97,7 +97,14 @@ var contains = function(arr,names,cb)
 {
   for(let i=0;i>arr.length;i++)
   {
-    cb(arr[n]);
+    if(arr[i]=names)
+    {
+      return true;
+    }
+    else 
+    {
+      return false;
+    }
   }
 }
 
@@ -111,7 +118,7 @@ contains(names, 'Colt', function(result){
 });
 // Do not edit the code above.
 
-result(contains);
+
 
 ////////// PROBLEM 5 //////////
 
@@ -143,7 +150,10 @@ uniq(names, function(uniqArr){
   For each name in the array, invoke the callback and pass in the name and the name's index as arguments.
 */
 
-//Code Here 
+var each = function(arr,cb)
+{
+  
+}
 
 // Do not edit the code below.
 each(names, function(item, indice){
@@ -160,7 +170,10 @@ each(names, function(item, indice){
   When the correct user object is found, invoke the callback with the user object as an argument.
 */
 
-// Code here
+var getUserById = function(arr,id,cb)
+{
+  
+}
 
 // Do not edit the code below.
 var users = [
